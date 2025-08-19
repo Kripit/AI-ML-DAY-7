@@ -82,9 +82,9 @@ python advanced_cnn.py --infer --image_path ./deepfake_dataset/real/sample_real.
 ## 📜 Citation  
 If you use this repository, please cite:  
 ```
-@article{mogger2025advancedcnn,
+@article{krishnaadvancedcnn,
   title={Advanced Convolutional Neural Network for Image Classification},
-  author={Mogger},
+  author={krishna mishra},
   journal={GitHub Repository},
   year={2025}
 }
