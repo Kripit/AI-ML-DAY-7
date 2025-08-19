@@ -1,0 +1,76 @@
+ DEEPFAKE DETECTION MODEL TEST RESULTS 🎯
+======================================================================
+🚀 OVERALL ACCURACY: 0.9965 (99.65%)
+
+📊 CONFUSION MATRIX BREAKDOWN:
+✅ True Negatives (Real → Real): 343
+❌ False Positives (Real → Fake): 31
+❌ False Negatives (Fake → Real): 7
+✅ True Positives (Fake → Fake): 10414
+🔍 Deepfake Detection Rate: 0.9993 (99.93%)
+🛡️  Real Image Protection Rate: 0.9171 (91.71%)
+
+📈 DETAILED CLASSIFICATION REPORT:
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+        Real     0.9800    0.9171    0.9475       374
+    Deepfake     0.9970    0.9993    0.9982     10421
+
+    accuracy                         0.9965     10795
+   macro avg     0.9885    0.9582    0.9728     10795
+weighted avg     0.9964    0.9965    0.9964     10795
+
+💪 CONFIDENCE STATISTICS:
+Real images average confidence: 0.9198 (91.98%)
+Fake images average confidence: 0.9992 (99.92%)
+
+======================================================================
+🔍 TESTING ON INDIVIDUAL IMAGES
+======================================================================
+
+📸 SINGLE IMAGE PREDICTION:
+Image: 1.mp4_frame_0_face_0.jpg
+Prediction: 🟢 REAL
+Confidence: 1.0000 (100.00%)
+Real probability: 1.0000 (100.00%)
+Fake probability: 0.0000 (0.00%)
+
+📸 SINGLE IMAGE PREDICTION:
+Image: 1.mp4_frame_102_face_0.jpg
+Prediction: 🟢 REAL
+Confidence: 1.0000 (100.00%)
+Real probability: 1.0000 (100.00%)
+Fake probability: 0.0000 (0.00%)
+
+📸 SINGLE IMAGE PREDICTION:
+Image: 1.mp4_frame_108_face_0.jpg
+Prediction: 🟢 REAL
+Confidence: 1.0000 (100.00%)
+Real probability: 1.0000 (100.00%)
+Fake probability: 0.0000 (0.00%)
+
+📸 SINGLE IMAGE PREDICTION:
+Image: Aishwarya_10_Tech-1.mp4_frame_0_face_0.jpg
+Prediction: 🔴 DEEPFAKE
+Confidence: 1.0000 (100.00%)
+Real probability: 0.0000 (0.00%)
+Fake probability: 1.0000 (100.00%)
+
+📸 SINGLE IMAGE PREDICTION:
+Image: Aishwarya_10_Tech-1.mp4_frame_102_face_0.jpg
+Prediction: 🔴 DEEPFAKE
+Confidence: 1.0000 (100.00%)
+Real probability: 0.0000 (0.00%)
+Fake probability: 1.0000 (100.00%)
+
+📸 SINGLE IMAGE PREDICTION:
+Image: Aishwarya_10_Tech-1.mp4_frame_108_face_0.jpg
+Prediction: 🔴 DEEPFAKE
+Confidence: 1.0000 (100.00%)
+Real probability: 0.0000 (0.00%)
+Fake probability: 1.0000 (100.00%)
+
+🎉 TESTING COMPLETED!
+📊 Confusion matrix saved as 'confusion_matrix.png'
+🎯 Final Test Accuracy: 99.65%
